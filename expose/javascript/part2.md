@@ -63,4 +63,17 @@ The values in prices is 100,200,300.
 Here, the discount is 50%, so all the values in prices are divided by 2.  
 And they are all integers, return [50, 100, 150]  
 
+**12.Given the above Object, write the notation for:**  
+**A.Accessing the value of the name property in the student object**  
+student.name   
+**B.Accessing the value of the Grad Year property in the student object**  
+student["grad year"]  
+**C.Calling the function for the greeting property in the student object**  
+student.greeting()  
+**D.Accessing the name property of the object in the Favorite Teacher property in student**  
+student["Favorite Teacher"].name  
+**E.Access index zero in the array of the courseLoad property of the student object**  
+student.courseLoad[0]  
 
+**13.Arithmetic** 
+**A.
