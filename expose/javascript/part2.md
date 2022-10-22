@@ -17,7 +17,7 @@ And because discountedPrice is an integer, the value of discountedPrice is equal
 still print 150  
 
 **4. What will this function return? Give a brief explanation why. If the code causes an error, explain why.**  
-It will return a list: [50, 100, 150]  
+It will return  [50, 100, 150]  
 Because this function discounts the value in prices according to the value of discount. 
 The values in prices is 100,200,300.  
 Here, the discount is 50%, so all the values in prices are divided by 2.   
