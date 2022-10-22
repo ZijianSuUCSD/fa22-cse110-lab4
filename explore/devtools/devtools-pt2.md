@@ -8,3 +8,4 @@ function calculateSum(num1, num2) {
   let result = Number(num1) + Number(num2)
   return result
 ```
+![fix](https://github.com/ZijianSuUCSD/fa22-cse110-lab4/blob/main/explore/devtools/fix.png?raw=true)
