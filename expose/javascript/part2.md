@@ -87,9 +87,10 @@ output: 0
 Since one of the objects is a number, null is converted to 0  
 **D.'3' + null**  
 output: '3null'   
-Since one of the objects is a string, null is converted to 'null'.
-**E.true + 3**  
-true = 1, 
+Since one of the objects is a string, null is converted to 'null'.  
+**E.true + 3**    
+output: 4
+true = 1,   3 + 1 = 4  
 **F.false + null**  
 output: 0  
 false = 0, null can converted to 0, 0+0=0  
@@ -113,12 +114,36 @@ Comparing two variables, ignores the datatype of variable
 so, 2 = 2  
 **D.2 === '2'**  
 output: false  
-=== will detect the data type, which are 2 different types.  
+=== will check the data type, which are 2 different types.  
 **E.true == 2**  
 output: false  
 true =1, 1 is not equal to 2  
 **F.true === Boolean(2)**  
 output: true  
 Boolean(2) == true, so return true  
+  
+**15.Explain the difference between the == and === operators.**  
+== ignores the datatype of variable  
+=== checks datatype 
+
+**16.Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part2-question16.js)**  
+you can go to check part2-question16.js in the repo, or see code below.
+```
+let statistics = {
+    redCars : 21,
+    blueCars : 45,
+    greenCars :12,
+    raceCars:5,
+    blackCars: 40,
+    rareCars:2
+};
+
+for(let car in statistics){
+    if(car[0]==='r' || statistics[car]%2!==0){
+        console.log(car);
+    }
+}
+```
+
 
  
