@@ -145,5 +145,28 @@ for(let car in statistics){
 }
 ```
 
+**17.If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development.**  
+The modifyArray() function will use the function doSomething() to operate the values in the array [1, 2, 3]. Function doSomething() will multiply the numbers in this array by 2. So the new array returned is [2, 4, 6]. Since this array is not assigned to other variables, there will be no output.   
 
- 
+**18.The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)**  
+you can go to check part2-question18.js in the repo, or see code below.
+```
+ function t(){
+    let d = new Date();
+    let time = d.toLocaleTimeString();
+    console.log(time);
+}
+
+setInterval( t,1000)
+
+```  
+**19.What is the output of the above code? (This should be in your part2.md)**  
+the output is:  
+1  
+4  
+3  
+2  
+  
+The numbers 1 and 4 don't need to wait. they will output first  
+Then the number 3 will be output after 0ms  
+Number 2 needs to wait 1000ms to output.  
