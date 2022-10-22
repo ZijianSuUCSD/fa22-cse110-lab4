@@ -104,7 +104,7 @@ Since one of the objects is a string, undefined is converted to 'undefined'.
 output: NaN  
 Since the string cannot be subtracted, and undefined = NaN, output NaN   
 
-**14. Comparison**
+**14. Comparison**  
 **A.'2' > 1**  
 output: true  
 When comparing values of different types, JavaScript converts the values to numbers.  
