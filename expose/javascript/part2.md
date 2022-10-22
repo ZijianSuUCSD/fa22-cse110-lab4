@@ -92,7 +92,7 @@ Since one of the objects is a number, null is converted to 0
 output: '3null'   
 Since one of the objects is a string, null is converted to 'null'.  
 **E.true + 3**    
-output: 4
+output: 4  
 true = 1,   3 + 1 = 4  
 **F.false + null**  
 output: 0  
