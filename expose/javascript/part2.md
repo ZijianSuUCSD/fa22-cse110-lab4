@@ -75,5 +75,50 @@ student["Favorite Teacher"].name
 **E.Access index zero in the array of the courseLoad property of the student object**  
 student.courseLoad[0]  
 
-**13.Arithmetic** 
-**A.
+**13.Arithmetic**   
+**A.'3' + 2**  
+output: '32'  
+since integers map to their exact string representation  
+**B.'3' - 2**  
+output: 1  
+Since the string cannot be subtracted, the string is converted to a number.  
+**C.3 + null**  
+output: 0  
+Since one of the objects is a number, null is converted to 0  
+**D.'3' + null**  
+output: '3null'   
+Since one of the objects is a string, null is converted to 'null'.
+**E.true + 3**  
+true = 1, 
+**F.false + null**  
+output: 0  
+false = 0, null can converted to 0, 0+0=0  
+**G.'3' + undefined**  
+output: '3undefined'   
+Since one of the objects is a string, undefined is converted to 'undefined'.  
+**H.'3' - undefined**  
+output: NaN  
+Since the string cannot be subtracted, and undefined = NaN, output NaN   
+
+**14. Comparison**
+**A.'2' > 1**  
+output: true  
+When comparing values of different types, JavaScript converts the values to numbers.  
+**B.'2' < '12'**  
+output: false  
+Because this is a comparison of 2 strings, the 2 strings are not the same.  
+**C.2 == '2'**  
+output: true  
+Comparing two variables, ignores the datatype of variable
+so, 2 = 2  
+**D.2 === '2'**  
+output: false  
+=== will detect the data type, which are 2 different types.  
+**E.true == 2**  
+output: false  
+true =1, 1 is not equal to 2  
+**F.true === Boolean(2)**  
+output: true  
+Boolean(2) == true, so return true  
+
+ 
