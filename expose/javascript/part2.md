@@ -24,7 +24,10 @@ Here, the discount is 50%, so all the values in prices are divided by 2.
 And they are all integers, return [50, 100, 150]  
 
 **5. What will happen at line 12 and why?  If the code causes an error, explain why.**  
-Nothing has happened yet. Because this code snippet does not call this function.  
+If this function is called, an error will occur. Because i is defined using Let, not a global variable.  
+In line 12, i cannot be called because i is inside the for loop.  
+But, nothing has happened yet. Because this code snippet does not call this function.  
+
 
 **6. What will happen at line 13 and why? If the code causes an error, explain why.**    
 Code causes an error,  
