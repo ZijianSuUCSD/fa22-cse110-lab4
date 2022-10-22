@@ -13,7 +13,7 @@ ReferenceError: result is not defined
 The code returns an error, because let variables are not added to the global object. It only exists in the "if" block.  
 Therefore, when the outside code uses “result” again, it will return an error because this variable does not exist.  
 
-**5.What is printed by line 9? If the code returns an error, explain why.**
+**5.What is printed by line 9? If the code returns an error, explain why.**  
 Cannot assign to "result" because it is a constant  
 The code returns an error, because variables defined with const cannot be Reassigned.  
 
