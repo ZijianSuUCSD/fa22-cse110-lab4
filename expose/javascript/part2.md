@@ -70,11 +70,11 @@ And they are all integers, return [50, 100, 150]
 **A.Accessing the value of the name property in the student object**  
 student.name   
 **B.Accessing the value of the Grad Year property in the student object**  
-student["grad year"]  
+student['Grad year']  
 **C.Calling the function for the greeting property in the student object**  
 student.greeting()  
 **D.Accessing the name property of the object in the Favorite Teacher property in student**  
-student["Favorite Teacher"].name  
+student['Favorite Teacher'].name  
 **E.Access index zero in the array of the courseLoad property of the student object**  
 student.courseLoad[0]  
 
