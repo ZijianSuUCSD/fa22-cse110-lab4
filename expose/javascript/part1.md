@@ -14,7 +14,7 @@ The code returns an error, because let variables are not added to the global obj
 Therefore, when the outside code uses “result” again, it will return an error because this variable does not exist.  
 
 **5.What is printed by line 9? If the code returns an error, explain why.**  
-Cannot assign to "result" because it is a constant  
+Cannot assign to "result" because it is a constant variable  
 The code returns an error, because variables defined with const cannot be Reassigned.  
 
 **6.What is printed by line 13? If the code returns an error, explain why.**  
