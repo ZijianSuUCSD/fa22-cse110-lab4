@@ -19,5 +19,5 @@ The code returns an error, because variables defined with const cannot be Reassi
 
 **6.What is printed by line 13? If the code returns an error, explain why.**  
 Not thing printed by line 13.  
-Since the program breaks on the line 7, the line 13 will not be output anything.  
+Since the program breaks on the line 7(because an error in Q5), the line 13 will not be output anything.  
 variables defined with const cannot be Reassigned.  
