@@ -86,7 +86,7 @@ since integers map to their exact string representation
 output: 1  
 Since the string cannot be subtracted, the string is converted to a number.  
 **C.3 + null**  
-output: 0  
+output: 3  
 Since one of the objects is a number, null is converted to 0  
 **D.'3' + null**  
 output: '3null'   
